@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6e6e6;
+    padding: 20px;
+    font-family: "Open Sans"
+}
+
+img{
+    width: 100%;
+    height: 168px;
+    border-radius: 2px 2px 0 0 ;
+}
+
+#local {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#tempo{
+    color: #999999;
+    font-size: 11px;
+    margin-left: 8px;
+    padding-left: 10px;
+}
+
+
+#manchete{
+    font-size: 18px;
+    color: #b5000d ;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+#desc-noticia{
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: #fff;
+    width: 300px;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    height: 450px;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 1px 1px 0 #999999;
+}
+
+.card h2{
+    line-height: 25px;
+    font-size: 16px;
+}
+
+a{text-decoration: none;}
