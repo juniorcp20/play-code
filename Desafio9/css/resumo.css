@@ -1,0 +1,38 @@
+.resumo{
+    background-color: #ebebeb;
+    width: 45%;
+    padding: 10px;
+    border-left: 1px solid #dddcde;
+    padding: 0 10px 10px 10px;
+}
+
+.resumo small{
+    display: block;
+    font-size: 14px;
+}
+
+.resumo span{
+    font-size: 12px;
+}
+
+.resumo ul.produto{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+
+.resumo ul.produto li{
+    border-bottom: 1px solid #dadada;
+    padding: 15px 0px;
+}
+
+.resumo ul.produto li:last-child{
+    border: none;
+}
+.resumo ul.produto li .detalhes{
+    width: 80%;
+}
+
+.resumo ul li{
+    display: flex;
+}

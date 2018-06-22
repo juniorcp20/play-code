@@ -1,0 +1,23 @@
+@import url('header.css');
+@import url('resumo.css');
+@import url('cartao.css');
+
+html{
+    background-image: url('../imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    padding: 80px 140px;
+    font-family: 'muliregular';
+    margin: 0 auto;
+}
+
+.principal{
+    display: flex;
+    background-color: #fff;
+}
+
+
+

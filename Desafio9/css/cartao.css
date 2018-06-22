@@ -1,0 +1,49 @@
+.cartao{
+    margin-left: 50px;
+    width: 55%;
+}
+
+/*CARDS*/
+.cartao .cards{
+    display: flex;
+    list-style-type: none;
+    font-weight: 400;
+    color: #c6c6c6;
+}
+
+.cartao h2{
+    border-bottom: 1px solid #979797;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.wallet ul.cards{
+    padding-left: 0;
+}
+
+.cartao .cards li{
+    padding: 10px;
+    text-align: center;
+}
+
+.cartao .cards li:hover{
+    background-color: #d1e2f6;
+}
+
+.new-card ul{
+    list-style-type: none;
+}
+
+.new-card ul li{
+    display: block;
+    width: 100%;
+}
+
+legend{
+    font-size: 16px;
+}
+
+.new-card fieldset{
+    
+}
+
