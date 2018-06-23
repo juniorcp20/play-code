@@ -15,6 +15,10 @@
     border-bottom: 1px solid #979797;
     margin-right: 15px;
     padding-bottom: 10px;
+    font-weight: 400;
+    color: #777879;
+    font-size: 20px;
+    
 }
 
 .wallet ul.cards{
@@ -39,11 +43,67 @@
     width: 100%;
 }
 
-legend{
-    font-size: 16px;
+.new-card fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.new-card fieldset{
-    
+legend{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #777879;
+    border-bottom: 1px solid #979797;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.new-card fieldset input{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+
+#exp-date{
+    width: 40%;
+    margin-right: 25px;
+}
+
+#cvc{
+    width: 30%;
+}
+
+.cartao ::-webkit-input-placeholder{
+    color: #c4cbd0;
+    font-size: 14x;
+}
+
+.new-card fieldset label{
+    display: flex;
+    margin-left: 35px;
+    font-size: 16px;
+    color: #777879;
+}
+
+.new-card fieldset #add-card{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;   
+}
+
+.new-card fieldset button{
+    background-color: #8bd638;
+    color: #fff;
+    border-radius: 2px;
+    width: 90%;
+    padding: 15px 110px;
+    margin-bottom: 25px;
 }
 

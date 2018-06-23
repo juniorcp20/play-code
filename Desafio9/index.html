@@ -39,11 +39,15 @@
                        
                        <input type="text" placeholder="Name on Card">
                        <input type="text" placeholder="1111-1112-1113-1114">
+                       
                        <input type="text" id="exp-date" placeholder="MM/YY">
                        <input type="text" id="cvc" placeholder="CVC">
                        
-                       <input id="add-card" type="checkbox">
-                       <label for="add-card">Add card to wallet</label>
+                       <label for="add-card">
+                           <input id="add-card" type="checkbox">
+                           Add card to wallet
+                       </label>
+                       
                        
                        <button>Continue</button>
                    </fieldset>
@@ -91,25 +95,29 @@
                    </li>
                </ul>
            
-           <div class="sub-TOTALIS">
-               <div class="sub-total">
-                    <span>Subtotal</span>
-                    <span>$398</span>
-               </div>
-               <div class="sub-total">
-                    <span>Shipping</span>
-                    <span>Free</span>
-               </div>
-               <div class="sub-total">
-                    <span>Taxes</span>
-                    <span>12.12</span>
-               </div>
-           </div>   
-           
-           <div id="total" class="sub-total">
-               <span>Total</span>
-               <span>$410.12</span>
-           </div>
+           <table class="valor-produto">
+              <tbody>
+                   <tr>
+                       <th scope="row">Subtotal</td>
+                       <td>$398</td>
+                   </tr>
+                   <tr>
+                       <th scope="row">Shipping</td>
+                       <td>Free</td>
+                   </tr>
+                   <tr>
+                       <th scope="row">Taxes</td>
+                       <td>12.12</td>
+                   </tr>
+               </tbody>
+               
+               <tfoot>
+                   <tr class="total">
+                       <th scope="row">Total</td>
+                       <td>$410.12</td>
+                   </tr>
+               </tfoot>
+           </table>
            
        </div>
        
