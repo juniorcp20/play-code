@@ -1,0 +1,126 @@
+.is-4{
+    background-color: #3a3c40;
+    text-align: center;
+}
+
+.is-4 h1{
+    color: #f5a623;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.is-4 h2{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.is-4 img{
+    width: 140px;
+    height: 140px;
+}
+
+.is-4 i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.is-4 a{
+    margin-bottom: 20px;
+}
+
+.sobre .links{
+    margin-bottom: 40px;
+}
+
+
+.button.is-orange{
+    background-color: #f6a623;
+    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6);
+    text-transform: uppercase;
+    color: #fff;
+    border-color: #f6a623;
+    border-radius: 3px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;    
+}
+
+.sobre .conhecimento{
+    display: block;
+    text-align: left;
+    width: 225px;
+    
+}
+
+.sobre .conhecimento h3{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.sobre .conhecimento span{
+    color: #8fa4af;
+}
+
+.is-8{
+    padding: 20px 50px;
+}
+
+.is-8 i{
+    color: #d0021b;
+    margin-right: 5px;
+}
+
+.is-8 h3{
+    color: #d0021b;
+    font-weight: 800;
+    border-bottom: 1px solid;
+}
+
+.is-8 .resumo{
+    margin-bottom: 50px;
+}
+
+.is-8 .experiencia{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.is-8 .experiencia .tit-experiencia{
+    color: #3a3c40;
+    margin-right: 60px;
+}
+
+.is-8 .experiencia .tit-experiencia h2{
+    font-weight: bold;
+    color: #3a3c40;
+}
+
+.is-8 .experiencia .tit-experiencia p{
+    font-size: 15px;
+}
+
+.is-8 .formacao{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.is-8 .formacao .tit-formacao{
+    color: #3a3c40;
+    margin-right: 60px;
+}
+
+.is-8 .formacao .tit-formacao h2{
+    font-weight: bold;
+    color: #3a3c40;
+}
+
+.is-8 .formacao .tit-formacao p{
+    font-size: 15px;
+}
+
